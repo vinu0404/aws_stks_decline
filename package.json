@@ -1,0 +1,15 @@
+{
+    "name": "stock_decline",
+    "version": "1.0.0",
+    "description": "AWS Lambda function to fetch stock data and send emails",
+    "main": "index.js",
+    "dependencies": {
+      "yahoo-finance": "^0.3.6", 
+      "aws-sdk": "^2.1200.0",
+      "nodemailer": "^6.9.0"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    }
+  }
+  
